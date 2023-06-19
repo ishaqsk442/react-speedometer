@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.main {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  color: white;
+  font-size: 20px;
+}
+
+.para {
+  color: white;
+  font-size: 10px;
+}
+
+.speed {
+  color: white;
+  font-size: 15px;
+}
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+.speed-increase {
+  margin: 10px;
+  color: white;
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 8px;
+}
+
+.speed-decrease {
+  margin: 10px;
+  color: #cbd5e1;
+  background-color: transparent;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #cbd5e1;
+}
